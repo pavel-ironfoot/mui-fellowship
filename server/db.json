@@ -1,0 +1,75 @@
+{
+    "cards": [
+        {"id":1,
+        "title":"Bilbo Baggins was born is the Shire",
+        "name": "Bilbo",
+        "poster":"https://wp.en.aleteia.org/wp-content/uploads/sites/2/2014/10/ydju4h4d_fbaz1vvmtn0gxpibnhl_w9gbacmmxwa8afhusjctvvdssl8ynqvl8xerqgqlfkgtt5mkivfyv3z10-rjhxx.jpg?w=512&h=341&crop=1",
+         "age":111},
+
+        {"id":2,
+        "title":"Frodo Baggins was born is the Shire",
+        "name":"Frodo",
+        "poster": "https://upload.wikimedia.org/wikipedia/ru/3/34/Frodo.jpg",
+        "age":52},
+
+        {"id":3,
+        "title":"Gimli was born is the Khuzud-dum",
+        "name":"Gimli",
+        "poster": "https://www.slashfilm.com/img/gallery/there-was-a-secret-second-actor-playing-gimli-in-the-lord-of-the-rings/intro-1660686644.jpg",
+         "age":331},
+
+        {"id":4,
+        "title":"Boromir was born in Gondor",
+        "name":"Boromir",
+        "poster": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/03/Boromir-with-shield.jpg",
+         "age":94},
+
+        {"id":5,
+        "title":"Arwen was born in Rivendell",
+        "name":"Faramir",
+        "poster": "https://wegotthiscovered.com/wp-content/uploads/2022/08/Arwen_Lord_of_the_Rings.jpg",
+         "age":72},
+
+        {"id":6,
+        "title":"Gandalf was born in MiddleEarth",
+        "name":"Gandalf",
+        "poster": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/06/gandalf-the-white.jpg",
+         "age":300000},
+
+        {"id":7,
+        "title":"Samwise Gamgee was born in Shire",
+        "name":"Samwise",
+        "poster": "https://insidethemagic.net/wp-content/uploads/2022/07/Samwise-Gamgee-Sean-Astin-800x400.png",
+         "age":50},
+
+        {"id":8,
+        "title":"Ringwraith was born in Gondor",
+        "name":"Ringwraith",
+        "poster": "https://www.looper.com/img/gallery/the-ringwraiths-from-the-lord-of-the-rings-explained/intro-1601506295.jpg",
+         "age":5000},
+
+        {"id":9,
+        "title":"Theoden was born in Rohan",
+        "name":"Theoden",
+        "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/3c/Theoden.png/274px-Theoden.png",
+         "age":87},
+
+        {"id":10,
+        "title":"Eomer was born in Rohan",
+        "name":"Eomer",
+        "poster": "https://www.looper.com/img/gallery/the-lord-of-the-rings-the-rohirrims-backstory-explained/intro-1623983938.jpg",
+         "age":31},
+
+        {"id":11,
+        "title":"Dain Ironfoot was born in Ironhill",
+        "name":"Dain",
+        "poster": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/07/Dain-as-king.jpg",
+         "age":168},
+
+        {"id":12,
+        "title":"Dwalin was born in Erebor",
+        "name":"Dwalin",
+        "poster": "https://www.looper.com/img/gallery/heres-why-dwalin-from-the-hobbit-looks-so-familiar/intro-1612537139.jpg",
+         "age":159}
+    ]
+  }

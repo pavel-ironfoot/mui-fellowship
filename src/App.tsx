@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BasketContainer } from './components/BasketContainer';
+import { Header } from './components/Header';
+import { Main } from './components/Main';
+import { Box, CssBaseline } from '@mui/material';
+import React, { useState } from 'react';
 
 function App() {
+  const [isCardOpen,setCardOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+        <Box color={'secondary'} sx={{ minHeight: '100vh', padding: '50px' }}>
+          <Header 
+          openCart={()=>setCardOpen(true)}
+          />
+          <Main />
+        </Box>
+        <BasketContainer
+         cartOpen={isCardOpen}
+          closeCart={()=>setCardOpen(false)}
+        />
+    </React.Fragment>
   );
 }
 
